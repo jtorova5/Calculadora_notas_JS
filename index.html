@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Definitivas</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main id="miPagina">
+    <nav><a id="contacto" href="./contacto.html">Contacto</a> </nav>
+
+    <center>
+      <h3>Calculadora Nota Definitiva</h3>
+    </center>
+
+    <div>
+      <form>
+        <label for="notaMax">Nota Máxima:</label>
+        <input type="number" id="notaMax" name="notaMax" placeholder="Ingrese la nota máxima...">
+
+        <label for="cantNotas">Cantidad de notas:</label>
+        <input type="number" id="cantNotas" name="cantNotas" placeholder="Ingrese la cantidad de notas...">
+
+        <button type="button" id="guardar">Guardar</button>
+        <button type="button" id="reiniciar">Reiniciar</button>
+      </form>
+    </div>
+    <div id="nombreF">
+    </div>
+    <div id="filas"></div>
+    <div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+  </main>
+</body>
+
+</html>
